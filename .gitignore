@@ -1,4 +1,12 @@
-*.swp
-*~
-release/
-bin/
+# Ignore Everything
+/*
+/*/
+
+# Except These
+!/src/
+!/macapp/
+!/.gitignore
+!/LICENSE
+!/README.md
+!/pom.xml
+!/IntelliJ-Coding-Style.xml
